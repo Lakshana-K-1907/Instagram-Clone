@@ -1,0 +1,155 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "flowerdiaries",
+        "profile_pic": "./src/assets/profile1.png",
+        "isVerified": false
+      },
+      "image": "./src/assets/post1.png",
+      "caption": "Bloom where you're planted 🌸✨ #Nature",
+      "likes": 1245,
+      "comments": [
+        {
+          "user": "skywatcher",
+          "comment": "Such a dreamy view! 😍"
+        },
+        {
+          "user": "travel_addict",
+          "comment": "Those flowers are beautiful 🌸"
+        }
+      ],
+      "location": "Kyoto, Japan",
+      "timestamp": "2026-06-28T08:30:00Z"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "foodie_world",
+        "profile_pic": "./src/assets/profile2.png",
+        "isVerified": true
+      },
+      "image": "./src/assets/post2.png",
+      "caption": "Weekend cravings satisfied! 🍔🍟",
+      "likes": 8421,
+      "comments": [
+        {
+          "user": "burger_lover",
+          "comment": "Now I'm hungry 😋"
+        },
+        {
+          "user": "chefmax",
+          "comment": "That burger looks incredible!"
+        }
+      ],
+      "location": "New York, USA",
+      "timestamp": "2026-06-27T18:15:00Z"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "travelgram",
+        "profile_pic": "./src/assets/profile3.png",
+        "isVerified": true
+      },
+      "image": "./src/assets/post3.png",
+      "caption": "Carnival nights and city lights 🎡✨",
+      "likes": 3120,
+      "comments": [
+        {
+          "user": "wanderlust",
+          "comment": "I'd love to visit this place!"
+        },
+        {
+          "user": "nightphotography",
+          "comment": "Amazing night shot 📸"
+        }
+      ],
+      "location": "Chicago, USA",
+      "timestamp": "2026-06-26T20:45:00Z"
+    }
+  ],
+  "profile": {
+    "id": 104,
+    "username": "its_me123",
+    "profile_pic": "./src/assets/profile1.png",
+    "isVerified": false
+  },
+  "suggestions": [
+    {
+      "id": "101",
+      "username": "flowerdiaries",
+      "profile_pic": "./src/assets/profile1.png",
+      "isVerified": false
+    },
+    {
+      "id": "102",
+      "username": "foodie_world",
+      "profile_pic": "./src/assets/profile2.png",
+      "isVerified": true
+    },
+    {
+      "id": "103",
+      "username": "travelgram",
+      "profile_pic": "./src/assets/profile3.png",
+      "isVerified": true
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "flowerdiaries",
+        "profile_pic": "./src/assets/profile1.png",
+        "isVerified": false
+      },
+      "image": "/src/assets/st1.png"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "foodie_world",
+        "profile_pic": "./src/assets/profile2.png",
+        "isVerified": true
+      },
+      "image": "/src/assets/st2.png"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "travelgram",
+        "profile_pic": "./src/assets/profile3.png",
+        "isVerified": true
+      },
+      "image": "/src/assets/st3.png"
+    }
+  ],
+  "followers": [
+    {
+      "id": "105",
+      "username": "lalala",
+      "profile_pic": "./src/assets/profile.png",
+      "isVerified": false
+    },
+    {
+      "id": "106",
+      "username": "yummyy123",
+      "profile_pic": "./src/assets/st2.png",
+      "isVerified": false
+    },
+    {
+      "id": "107",
+      "username": "manlyMM",
+      "profile_pic": "./src/assets/post3.png",
+      "isVerified": false
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

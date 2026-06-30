@@ -1,0 +1,145 @@
+.sidebar {
+    width: 20%;
+    background: black;
+    color: white;
+    padding: 30px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position:fixed;
+    
+    
+
+    height: 100vh;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.bottom-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.logotext img{
+    width:115px;
+    height:auto;
+}
+
+.feed {
+    margin-left: 20%;
+    width: 55%;
+    background-color:black;
+    color:white;
+    height: 200vh;
+    
+    
+}
+body{
+    background:black;
+}
+
+.suggestions {
+    width: 25%;
+    background-color:black;
+    color:white;
+    height: 200vh;
+}
+
+.bi{
+    margin-right: 10px;
+}
+.story{
+    height:100px;
+    width: 100%;
+}
+.dp{
+    height:50px;
+    gap: 20px;
+    margin-top: 1px;
+    margin-right: 5px;
+    margin-bottom: 7px;
+}
+.post{
+    width: 400px;
+    margin-bottom: 7px;
+    border-radius: 6px;
+    
+}
+.suggest{
+    display:flex;
+    width: 65%;
+    align-items: center;
+}
+.switch{
+    color:cornflowerblue;
+    font-weight:700;
+    cursor:pointer;
+}
+.suggestion-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;       
+    margin-top: 15px;
+}
+
+.username{
+    width: 150px;      
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.follow{
+    color: cornflowerblue;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.gradient-border {
+    width: 68px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    padding: 3px;
+    flex-shrink: 0;
+}
+
+.gradient-border img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid black;
+    
+}
+
+.story-dp {
+    width: 60px;
+    height: 60px;
+      
+}
+
+.story > div{
+    margin-top: 10px;
+    margin-right: 18px;
+    text-align: center;
+}
+.profile{
+    width: 200px;
+    height: 200px;
+}
+.text{
+    color: white;
+    display: flex;
+    margin-top: 5px;
+}
